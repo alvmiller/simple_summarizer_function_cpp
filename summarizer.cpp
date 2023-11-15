@@ -8,6 +8,7 @@ constexpr int sum()
 
 template <typename T, typename ... Ts>
 constexpr auto sum(T&& arg, Ts&& ... args) {
+// constexpr auto sum(T arg, Ts ... args) {
 // constexpr decltype(auto) sum_st(T&& arg, Ts&& ... args) {
 // constexpr T sum_st(T&& arg, Ts&& ... args) {
     // return arg + sum_st((args)...);
