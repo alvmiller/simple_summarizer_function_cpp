@@ -3,7 +3,7 @@
 
 // -----------------------------------------------------------------------------
 
-constexpr int sumi()
+constexpr auto sumi()
 {
     return 0;
 }
@@ -19,7 +19,7 @@ constexpr auto sumi(T arg, Ts ... args) {
 
 // -----------------------------------------------------------------------------
 
-constexpr int sum()
+constexpr auto sum()
 {
     return 0;
 }
